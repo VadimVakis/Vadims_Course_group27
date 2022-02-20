@@ -1,0 +1,283 @@
+Для выполнения задания у вас должен быть установлен для Windows - GitBash.
+Создан аккаунт в GitHub
+
+Все шаги сценария выполняйте в терминале GitBush, Terminal, в папке под гитом.
+
+
+Как отправить ДЗ на проверку.
+1.	Создайте текстоовый файл как в первом ДЗ по Terminal.
+2. Сценарий перенесите в этот файл.
+3. На против каждого действия - напишите команду в GitBash
+
+Файл со сценарием и ссылку на свой гит хаб отправляйте менторам на проверку.
+
+JSON
+4. Создать внешний репозиторий c названием JSON.
+github.com - NEW - Repository name – JSON - Create repository - Code - Копируем HTTPS 
+5. Клонировать репозиторий JSON на локальный компьютер.
+Git clone https://github.com/VadimVakis/JSON-.git - Enter
+6. Внутри локального JSON создать файл “new.json”.
+Start . - cd JSON - touch new.json
+7. Добавить файл под гит.
+git add new.json
+8. Закоммитить файл.
+git commit –m “add 1 file” - enter - git status
+9. Отправить файл на внешний GitHub репозиторий.
+git push - enter 
+10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных,
+будущая желаемая зарплата). 
+Всё написать в формате JSON.
+vim new.json - enter - i 
+{
+	        "full_name": "Vakis Vadim Erikovich",
+	        "age": 26,
+	        "pets":{
+			"number": 1,
+			"type_of_animal": "dog",
+			"name": "Bim",
+			"age": 12	
+		},
+		"desired salary": "400$"
+}
+esc - :wq - enter
+11. Отправить изменения на внешний репозиторий.
+git commit -am "change file new.json" - enter - git push 
+12. Создать файл preferences.json
+touch preferences.json - enter 
+13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, 
+любимое время года, сторона которую хотели бы посетить) в формате JSON.
+vim preferences.json
+{
+   "my favorite movie": "The Swiss Knife Man",
+   "my favorite TV series": "True Detective (season 1)",
+   "my favorite food": "draniki",
+   "my favorite time of year": "summer",
+   "country I would like to visit": "Norway"
+}
+esc - :wq - enter  
+14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+vim skills.json
+i{
+        "Skills":[
+        "Basic theory: {(What is testing, bug reports, documentation, types, methods, testing directions, etc.)}, SDLC, STLC",
+        "What is a client-server architecture",
+        "HTTP Methods of requests to the server",
+        "HTTP server response codes",
+        "Structures of HTTP requests and responses",
+        "What is JSON, XML. Their structure",
+        "API testing via Postman (JS, API autotests)",
+        "Removing and reading logs from an external server",
+        "Sniffing http web traffic via Charles and Fiddler",
+        "Dev Tools of web browsers (Google Chrome, FireFox)",
+        "VPN. (How it works, why you need it, how to use it, tool options)",
+        "Mobile testing",
+        "Feature iOS, Android, guidelines",
+        "Building iOS applications on XCode. (Those who do not have a Mac computer, just look)",
+        "Building Android applications on Android Studio",
+        "ADB (android device management)",
+        "Setting up proxy and vpn on iOS and Android",
+        "Interception (sniffing) of mobile traffic via Charles and Fiddler on iOS and Android",
+        "Command line (terminal) Linux (copying, creating, viewing, moving files on servers without a graphical interface)",
+        "Basics of bash scripting, automation of routine tasks on the server",
+        "Access to remote servers",
+        "SQL basics (Create, Delete, Drop, Insert Into, Select, From, Where, Join)",
+        "Postgres database (installation, configuration and use)",
+        "Non-relational database Redis (installation, configuration and use)",
+        "Load testing in Jmeter",
+        "Scrum development methodology",
+        "Python. (Learning the basics. Creating a client-server application)"
+        ]
+}
+Esc - :wq - enter
+15. Отправить сразу 2 файла на внешний репозиторий.
+git add . | git commit -m "Modify history" - git push 
+16. На веб интерфейсе создать файл bug_report.json.
+github.com - заходим в репозиторий JSON - add file - create new file - в строке name your file... пишем  bug_report.json
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+сommit new file
+18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+заходим в bug_report.json - нажимаем edit this file 
+https://github.com/VadimVakis/JSON/blob/main/bug_report.json
+19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+commit changes
+20. Синхронизировать внешний и локальный репозиторий JSON
+git pull
+
+XML
+21. Создать внешний репозиторий c названием XML.
+github.com - NEW - Repository name – XML - Create repository - Code - Копируем HTTPS 
+22. Клонировать репозиторий XML на локальный компьютер.
+git clone https://github.com/VadimVakis/XML.git - enter
+23. Внутри локального XML создать файл “new.xml”.
+cd XML - touch new.xml
+24. Добавить файл под гит.
+git add new.xml
+25. Закоммитить файл.
+git commit -m "new file xml"
+26. Отправить файл на внешний GitHub репозиторий.
+Git push 
+27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных,
+будущая желаемая зарплата). Всё написать в формате XML.
+Vim new.xml - i
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+   <full_name>Vakis Vadim Erikovich</full_name>
+   <age>26</age>
+   <pets>
+   <number>1</number>
+   <type_of_animal>dog</type_of_animal>
+   <name>Bim</name>
+   <age>12</age>
+   </pets>
+   <desired_salary>400$</desired_salary>
+</info>
+Esc - :wq - enter
+28. Отправить изменения на внешний репозиторий.
+git commit -am "change file new.json" - enter - git push 
+29. Создать файл preferences.xml
+touch preferences.xml enter
+30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, 
+любимое время года, сторона которую хотели бы посетить) в формате XML.
+vim preferences.xml - i
+<?xml version="1.0" encoding="UTF-8"?>
+
+<my_preferences>
+   <my_favorite_movie>The Swiss Knife Man</my_favorite_movie>
+   <my_favorite_TV_series>True Detective (season 1)</my_favorite_TV_series>
+   <my_favorite_food>draniki</my_favorite_food>
+   <my_favorite_time_of_year>summer</my_favorite_time_of_year>
+   <country_I_would_like_to_visit>Norway</country_I_would_like_to_visit>
+</my_preferences>
+Esc - :wq - enter
+31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+Vim skills.xml - Enter - i
+<?xml version="1.0" encoding="UTF-8"?>
+
+<skills>
+  <Skills1>Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC</Skills1>
+        <Skills2>What is a client-server architecture</Skills2>
+        <Skills3>HTTP Methods of requests to the server</Skills3>
+        <Skills4>HTTP server response codes</Skills4>
+        <Skills5>Structures of HTTP requests and responses</Skills5>
+        <Skills6>What is JSON, XML. Their structure</Skills6>
+        <Skills7>API testing via Postman (JS, API autotests)</Skills7>
+        <Skills8>Removing and reading logs from an external server</Skills8>
+        <Skills9>Sniffing http web traffic via Charles and Fiddler</Skills9>
+        <Skills10>Dev Tools of web browsers (Google Chrome, FireFox)</Skills10>
+        <Skills11>VPN. (How it works, why you need it, how to use it, tool options)</Skills11>
+        <Skills12>Mobile testing</Skills12>
+        <Skills13>Feature iOS, Android, guidelines</Skills13>
+        <Skills14>Building iOS applications on XCode. (Those who do not have a Mac computer, just look)</Skills14>
+        <Skills15>Building Android applications on Android Studio</Skills15>
+        <Skills16>ADB (android device management)</Skills16>
+        <Skills17>Setting up proxy and vpn on iOS and Android</Skills17>
+        <Skills18>Interception (sniffing) of mobile traffic via Charles and Fiddler on iOS and Android</Skills18>
+        <Skills19>Command line (terminal) Linux (copying, creating, viewing, moving files on servers without a graphical interface)</Skills19>
+        <Skills20>Basics of bash scripting, automation of routine tasks on the server</Skills20>
+        <Skills21>Access to remote servers</Skills21>
+        <Skills22>SQL basics (Create, Delete, Drop, Insert Into, Select, From, Where, Join)</Skills22>
+        <Skills23>Postgres database (installation, configuration and use)</Skills23>
+        <Skills24>Non-relational database Redis (installation, configuration and use)</Skills24>
+        <Skills25>Load testing in Jmeter</Skills25>
+        <Skills26>Scrum development methodology</Skills26>
+        <Skills27>Python. (Learning the basics. Creating a client-server application)</Skills27>
+</skills>
+Esc - :wq - enter
+32. Сделать коммит в одну строку.
+git  add . | git commit -m "change file preferences.xml and skills.xml"
+33. Отправить сразу 2 файла на внешний репозиторий.
+git push
+34. На веб интерфейсе создать файл bug_report.xml.
+github.com - заходим в репозиторий XML - add file - create new file - в строке name your file... пишем  bug_report.xml
+35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+сommit new file
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+заходим в bug_report.xml - нажимаем edit this file
+https://github.com/VadimVakis/XML/blob/main/bug_report.xml 
+37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+commit changes
+38. Синхронизировать внешний и локальный репозиторий XML
+git pull
+
+27_group_channel, [16.02.2022 12:43]
+[В ответ на 27_group_channel]
+TXT
+1. Создать внешний репозиторий c названием TXT.
+Github.com - NEW - Repository name – TXT - Create repository - Code - Копируем HTTPS 
+2. Клонировать репозиторий TXT на локальный компьютер.
+Git clone https://github.com/VadimVakis/TXT.git - enter
+3.Внутри  локального TXT создать файл “new.txt”.
+cd TXT - touch new.txt 
+4. Добавить файл под гит.
+git add new.txt
+5. Закоммитить файл.
+git commit -m "add file new.txt"
+6. Отправить файл на внешний GitHub репозиторий.
+git push
+7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). 
+Всё написать в формате TXT.
+vim new.txt - i
+full_name: Vakis Vadim Erikovich,
+age: 26,
+pets: number 1, type_of_animal: dog, name: Bim, age": 12,
+desired salary: 400$
+esc - :wq - Enter
+8. Отправить изменения на внешний репозиторий.
+git add new.txt - git commit -m "add cchanges new.txt" - git push
+9. Создать файл preferences.txt
+touch preferences.txt
+10.	В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую 
+хотели бы посетить) в формате TXT.
+vim preferences.txt - i
+my favorite movie: "The Swiss Knife Man,
+my favorite TV series": "True Detective (season 1),
+my favorite food: draniki,
+my favorite time of year: summer,
+country I would like to visit": Norway
+esc - :wq - enter
+11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+Vim skills.txt - i
+1. Basic theory (What is testing, bug reports, documentation, types, methods, areas of testing, etc.) SDLC, STLC.
+2. What is a client-server architecture.
+3. HTTP Methods of requests to the server.
+4. HTTP server response codes.
+5. Structures of HTTP requests and responses.
+6. What is JSON, XML. Their structure.
+7. API testing via Postman (JS, API autotests).
+8. Removing and reading logs from an external server.
+9. Sniffing http web traffic via Charles and Fiddler.
+10. Dev Tools of web browsers (Google Chrome, FireFox).
+11. VPN. (How it works, why you need it, how to use it, tool options)
+12. Mobile testing.
+13. Feature iOS, Android, guidelines.
+14. Building iOS applications on XCode. (Those who do not have a Mac computer, just look)
+15. Building Android applications on Android Studio.
+16. ADB (android device management).
+17. Setting up proxy and vpn on iOS and Android.
+18. Interception (sniffing) of mobile traffic via Charles and Fiddler on iOS and Android.
+19. Command line (terminal) Linux (copying, creating, viewing, moving files on servers without a graphical interface)
+20. Basics of bash scripting, automation of routine tasks on the server.
+21. Access to remote servers.
+22. SQL basics (Create, Delete, Drop, Insert Into, Select, From, Where, Join).
+23. Postgres database (installation, configuration and use).
+24. Non-relational database Redis (installation, configuration and use).
+25. Load testing in Jmeter.
+26. Scrum development methodology.
+27.Python. (Learning the basics. Creating a client-server application)
+esc - :wq - enter
+12. Сделать коммит в одну строку.
+git commit -am "add cchanges preferences.txt and skills.txt"
+13. Отправить сразу 2 файла на внешний репозиторий.
+git push 
+14. На веб интерфейсе создать файл bug_report.txt.
+github.com - заходим в репозиторий TXT - add file - create new file - в строке name your file... пишем  bug_report.txt
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+сommit new file
+16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+заходим в bug_report.txt - нажимаем edit this file
+https://github.com/VadimVakis/TXT/blob/main/bug_report.txt
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+commit changes
+18. Синхронизировать внешний и локальный репозиторий TXT
+git pull
+

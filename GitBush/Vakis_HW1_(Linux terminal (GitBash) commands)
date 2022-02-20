@@ -1,0 +1,62 @@
+1) Посмотреть где я  pwd
+2) Создать папку  mkdir myfile
+3) Зайти в папку  cd myfile
+4) Создать 3 папки mkdir f_1 f_2 f_3
+5) Зайти в любоую папку cd f_1
+6) Создать 5 файлов (3 txt, 2 json) -  touch text1.txt text2.txt text3.txt file1.json file2.json
+7) Создать 3 папки  mkdir one two three
+8. Вывести список содержимого папки ls –la
+9) + Открыть любой txt файлx vim text1.txt
+10) + написать туда что-нибудь, любой текст. 
+i
+Hello1, my friend,
+Hello2, my friend,
+Hello3, my friend.
+11) + сохранить и выйти. Esc/:wq
+12) Выйти из папки на уровень выше cd ..
+
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. 
+mv f_1/text1.txt f_1/file1.json f_2/
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку. 
+cp f_2/text1.txt f_2/file1.json f_1/
+15) Найти файл по имени 
+find . -name text1.txt 
+find . -name *.txt
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+tail -f text1.txt
+17) вывести несколько первых строк из текстового файла
+head -n 3 text1.txt 
+18) вывести несколько последних строк из текстового файла
+tail -n 3 text1.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
+Less text1.txt
+20) вывести дату и время
+date
+
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request
+curl "http://162.55.220.72:5005/terminal-hw-request"
+curl "http://162.55.220.72:5005/get_method?name=Vadim&age=25"
+
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+vim script1.sh
+i
+
+#!/bin/bash
+
+cd myfile
+mkdir f_1 f_2 f_3
+cd f_1
+touch text1.txt text2.txt text3.txt file1.json file2.json
+mkdir one two three
+ls –la
+cd ..
+mv f_1/text1.txt f_1/file1.json f_2/
+
+:wq
+
+./script1.sh
+
+
