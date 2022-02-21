@@ -13,3 +13,4 @@ Expected result: Nazhatie knopki Katalog perenapravljaet na stranitsu Nashi Vaka
 Severity: Critical,
 Priority: High,
 Status: Open,
+Attachments: ssylka_na_kartinku_ili_video_s_bagom
