@@ -1,4 +1,4 @@
-ID: A1,
+ID: A1
 Author: Vadim Vakis Erikovich,
 Date: 19.02.2021,
 Project name: Sajt internet-magazina produktov pitanija UDOMA,
