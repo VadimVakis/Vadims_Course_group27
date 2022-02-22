@@ -1,0 +1,15 @@
+Author: Vadim Vakis Erikovich,
+Date: 19.02.2021,
+Project name: Sajt internet-magazina produktov pitanija UDOMA,
+STR:
+    1. Zajti na glavnuju stranitsu sajta (ssylka_na_sajt),
+    2. Nazhat' knopku Nashi Vakansii, 
+Enviroment: 1.Windows 7, 
+            2.Versiya 98.0.4758.102 (Oficial'naya sborka), (64 bit), 
+Component: Nashi Vakansii,
+Actual result: Nazhatie knopki Katalog NE perenapravljaet na stranitsu Nashi Vakansii,
+Expected result: Nazhatie knopki Katalog perenapravljaet na stranitsu Nashi Vakansii,
+Severity: Critical,
+Priority: High,
+Status: Open,
+Attachments: ssylka_na_kartinku_ili_video_s_bagom
