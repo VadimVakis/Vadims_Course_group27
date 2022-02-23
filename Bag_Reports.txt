@@ -1,13 +1,12 @@
-ID:
-Author:
+ID: 
+Author: 
 Date: 
 Project name: 
-STR: 
+STR:    
 Enviroment:  
 Component: 
-Actual result:
+Actual result: 
 Expected result:
 Severity: 
-Priority: High,
+Priority: 
 Status: 
-Attachments: 
