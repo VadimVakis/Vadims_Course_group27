@@ -1,0 +1,12 @@
+ID: 
+Author: 
+Date: 
+Project name: 
+STR:    
+Enviroment:  
+Component: 
+Actual result: 
+Expected result:
+Severity: 
+Priority: 
+Status: 
