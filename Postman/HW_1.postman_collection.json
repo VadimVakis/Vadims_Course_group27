@@ -7,25 +7,27 @@
 	"item": [
 		{
 			"name": "EP_1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/get_method?Name=Vadim&age=26",
-					"protocol": "http",
+					"raw": "{{url}}/get_method?name=Vadim&age=26",
 					"host": [
-						"162",
-						"55",
-						"220",
-						"72"
+						"{{url}}"
 					],
-					"port": "5005",
 					"path": [
 						"get_method"
 					],
 					"query": [
 						{
-							"key": "Name",
+							"key": "name",
 							"value": "Vadim"
 						},
 						{
