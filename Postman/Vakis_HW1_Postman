@@ -1,0 +1,190 @@
+Postman.
+HW_1
+
+EP_1
+1)Collections - New - Collection - в New Collection пишим наше название - Group_27 - слева на Group_27 
+наводим курсор - правая кнопка мышки - Add Request 
+2)Метод - GET
+3)Вводим URL - http://162.55.220.72:5005/get_method
+4)Params  
+KEY         Value
+Name        Vadim
+age         26  
+5)Save - Send
+Body - Pretty
+
+[
+    "Vadim",
+    "26"
+]
+==================
+EP_2
+1)Cлева на Group_27 наводим курсор - правая кнопка мышки - Add Request 
+2)Метод - POST
+3)Вводим URL - http://162.55.220.72:5005/user_info_3
+4)Body - from-data
+5)KEY         Value
+Name        Vadim
+age         26  
+Salary      500
+6)Save - Send
+Body - Pretty
+
+{
+    "age": "26",
+    "family": {
+        "children": [
+            [
+                "Alex",
+                24
+            ],
+            [
+                "Kate",
+                12
+            ]
+        ],
+        "u_salary_1_5_year": 2000
+    },
+    "name": "Vadim",
+    "salary": 500
+}
+==================
+EP_3
+1)Cлева на Group_27 наводим курсор - правая кнопка мышки - Add Request
+2)Метод - GET
+3)Вводим URL - http://162.55.220.72:5005/object_info_1
+4)Params
+5)KEY         Value
+Name        Vadim
+age         26  
+weight      69
+6)Save - Send
+Body - Pretty
+
+{
+    "age": 26,
+    "daily_food": 0.8280000000000001,
+    "daily_sleep": 172.5,
+    "name": "Vadim"
+}
+==================
+EP_4
+1)Cлева на Group_27 наводим курсор - правая кнопка мышки - Add Request
+2)Метод - GET
+3)Вводим URL - http://162.55.220.72:5005/object_info_2
+4)Params
+5)KEY         Value
+Name        Vadim
+age         26  
+Salary      500
+6)Save - Send
+Body - Pretty
+
+{
+    "person": {
+        "u_age": 26,
+        "u_name": [
+            "Vadim",
+            500,
+            26
+        ],
+        "u_salary_5_years": 2100.0
+    },
+    "qa_salary_after_1.5_year": 1650.0,
+    "qa_salary_after_12_months": 1350.0,
+    "qa_salary_after_3.5_years": 1900.0,
+    "qa_salary_after_6_months": 1000,
+    "start_qa_salary": 500
+}
+==================
+EP_5
+1)Cлева на Group_27 наводим курсор - правая кнопка мышки - Add Request
+2)Метод - GET
+3)Вводим URL - http://162.55.220.72:5005/object_info_3
+4)Params
+5)KEY         Value
+Name        Vadim
+age         26  
+Salary      500
+6)Save - Send
+Body - Pretty
+
+{
+    "age": "26",
+    "family": {
+        "children": [
+            [
+                "Alex",
+                24
+            ],
+            [
+                "Kate",
+                12
+            ]
+        ],
+        "pets": {
+            "cat": {
+                "age": 3,
+                "name": "Sunny"
+            },
+            "dog": {
+                "age": 4,
+                "name": "Luky"
+            }
+        },
+        "u_salary_1_5_year": 2000
+    },
+    "name": "Vadim",
+    "salary": 500
+}
+==================
+EP_6
+1)Cлева на Group_27 наводим курсор - правая кнопка мышки - Add Request
+2)Метод - GET
+3)Вводим URL - http://162.55.220.72:5005/object_info_4
+4)Params
+5)KEY         Value
+Name        Vadim
+age         26  
+Salary      500
+6)Save - Send
+Body - Pretty
+
+{
+    "age": 26,
+    "name": "Vadim",
+    "salary": [
+        500,
+        "1000",
+        "1500"
+    ]
+}
+==================
+EP_7
+1)Cлева на Group_27 наводим курсор - правая кнопка мышки - Add Request
+2)Метод - POST
+3)Вводим URL - http://162.55.220.72:5005/user_info_2
+4)Body - from-data
+5)KEY         Value
+Name        Vadim
+age         26  
+Salary      500
+6)Save - Send
+Body - Pretty
+
+{
+    "person": {
+        "u_age": 26,
+        "u_name": [
+            "Vadim",
+            300,
+            26
+        ],
+        "u_salary_5_years": 1260.0
+    },
+    "qa_salary_after_1.5_year": 990.0,
+    "qa_salary_after_12_months": 810.0,
+    "qa_salary_after_3.5_years": 1140.0,
+    "qa_salary_after_6_months": 600,
+    "start_qa_salary": 300
+}
